@@ -1,0 +1,142 @@
+
+## React.js files frontend
+
+# dependencies
+frontend/node_modules
+frontend/.pnp
+frontend/.pnp.js
+
+# testing
+frontend/coverage
+
+# production
+frontend/build
+
+# misc
+frontend/.DS_Store
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+##Strapi files backend
+
+############################
+# OS X
+############################
+
+Backend/.DS_Store
+Backend/.AppleDouble
+Backend/.LSOverride
+Backend/Icon
+Backend/.Spotlight-V100
+Backend/.Trashes
+Backend/._*
+
+
+############################
+# Linux
+############################
+
+Backend/*~
+
+
+############################
+# Windows
+############################
+
+Backend/Thumbs.db
+Backend/ehthumbs.db
+Backend/Desktop.ini
+Backend/$RECYCLE.BIN/
+Backend/*.cab
+Backend/*.msi
+Backend/*.msm
+Backend/*.msp
+
+
+############################
+# Packages
+############################
+
+Backend/*.7z
+Backend/*.csv
+Backend/*.dat
+Backend/*.dmg
+Backend/*.gz
+Backend/*.iso
+Backend/*.jar
+Backend/*.rar
+Backend/*.tar
+Backend/*.zip
+Backend/*.com
+Backend/*.class
+Backend/*.dll
+Backend/*.exe
+Backend/*.o
+Backend/*.seed
+Backend/*.so
+Backend/*.swo
+Backend/*.swp
+Backend/*.swn
+Backend/*.swm
+Backend/*.out
+Backend/*.pid
+
+
+############################
+# Logs and databases
+############################
+
+Backend/.tmp
+Backend/*.log
+Backend/*.sql
+Backend/*.sqlite
+Backend/*.sqlite3
+
+
+############################
+# Misc.
+############################
+
+Backend/*#
+Backend/ssl
+Backend/.idea
+Backend/nbproject
+Backend/public/uploads/*
+Backend/!public/uploads/.gitkeep
+
+############################
+# Node.js
+############################
+
+Backend/lib-cov
+Backend/lcov.info
+Backend/pids
+Backend/logs
+Backend/results
+Backend/node_modules
+Backend/.node_history
+
+############################
+# Tests
+############################
+
+Backend/testApp
+Backend/coverage
+
+############################
+# Strapi
+############################
+
+Backend/.env
+Backend/license.txt
+Backend/exports
+Backend/*.cache
+Backend/build
+Backend/.strapi-updater.json
+

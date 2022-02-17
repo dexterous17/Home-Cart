@@ -1,0 +1,19 @@
+.Footer {
+    height: 45px;
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center
+}
+
+.Footer_Text {
+    display: flex;
+    color: azure;
+    padding-right: 15px;
+}
+
+.Footer_Text:last-child{
+    padding-right: none;
+}
