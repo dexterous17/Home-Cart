@@ -8,7 +8,7 @@ const Footer = () => {
         <div className='Footer'>
             {
                 footer_text.map((data) => (
-                    <div className='Footer_Text'>
+                    <div className='Footer_Text' key={data.text}>
                         {data.text}
                     </div>
                 ))
