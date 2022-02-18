@@ -3,6 +3,26 @@
     background-color: brown;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+.homecart{
+    color: white;
+}
+
+.searchbar{
+    display: flex;
+    align-items: center;
+}
+
+.searchbar>input{
+    height: 30px;
+}
+
+.searchbar>.searchicon{
+    color: white;
+    background-color: orange;
+    height: 35px;
+    width: 35px;
 }
 
 .cart{
