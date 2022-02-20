@@ -8,25 +8,26 @@ const Header = () => {
                 <div className='homecart'>
                     Home-Cart
                 </div>
-                <div>
+                <div className='header_middle'>
+                    
                     <div className='searchbar'>
                         <input/>
                         <Icon icon="ant-design:search-outlined" className='searchicon'/>
                     </div>
                     <div>
                         <div>
-
+                            Hello, Sign in
                         </div>
                         <div>
-
+                            Account & list
                         </div>
                     </div>
                     <div>
                         <div>
-
+                            Returns
                         </div>
                         <div>
-                            
+                            & Orders
                         </div>
                     </div>
                 </div>

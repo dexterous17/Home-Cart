@@ -1,0 +1,14 @@
+.Login {
+    display: flex;
+    justify-content: center;
+}
+
+.Login_box {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+}
+
+.error{
+    color: red;
+}

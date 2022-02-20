@@ -9,6 +9,19 @@
     color: white;
 }
 
+.header_middle{
+    display: flex;
+    padding-left: 10px;
+}
+
+.header_middle>div{
+    padding-right: 10px;
+}
+
+.header_middle>div:last-child{
+    padding-right: 0px;
+}
+
 .searchbar{
     display: flex;
     align-items: center;
