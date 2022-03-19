@@ -1,46 +1,58 @@
-.Header{
+.Header {
     height: 45px;
     background-color: brown;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.homecart{
+
+.homecart {
     color: white;
 }
 
-.header_middle{
+.header_middle {
     display: flex;
     padding-left: 10px;
 }
 
-.header_middle>div{
+.header_middle>div {
     padding-right: 10px;
 }
 
-.header_middle>div:last-child{
+.header_middle>div:last-child {
     padding-right: 0px;
 }
 
-.searchbar{
+.searchbar {
     display: flex;
     align-items: center;
 }
 
-.searchbar>input{
+.searchbar>select {
+    height: 30px;
+    width: 120px;
+}
+
+.searchbar>input {
     height: 30px;
 }
 
-.searchbar>.searchicon{
+.searchbar>.searchicon {
     color: white;
     background-color: orange;
-    height: 35px;
+    height: 30px;
     width: 35px;
 }
 
-.cart{
+.cart {
     display: flex;
     color: black;
     height: 30px;
     width: 30px;
+}
+
+@media only screen and (max-width: 530px) {
+    .Button {
+        display: none;
+    }
 }

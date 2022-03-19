@@ -1,12 +1,22 @@
 .Login {
     display: flex;
     justify-content: center;
+    align-items: center
+   
 }
 
 .Login_box {
-    background-color: black;
-    width: 100px;
-    height: 100px;
+    border: solid 1px;
+    border-color: black;
+}
+
+.Login_buttons{
+    display:flex;
+    justify-content: space-between;
+}
+
+.Login_labels{
+    display: flex;
 }
 
 .error{
