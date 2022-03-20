@@ -1,0 +1,18 @@
+.Product_2 {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Product_2 > div {
+    background-color: rgb(156, 124, 124);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 115px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 10%;
+}

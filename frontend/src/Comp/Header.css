@@ -44,11 +44,33 @@
     width: 35px;
 }
 
+.searchbar> .Buttons{
+    display: flex;
+}
+
+.searchbar> .Buttons > .Button{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.searchbar> .Buttons > .Button:last-child{
+    padding-left: 10px;
+}
+
 .cart {
     display: flex;
     color: black;
     height: 30px;
     width: 30px;
+}
+
+.SVG{
+    display: flex;
+}
+
+.SVG > svg {
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 @media only screen and (max-width: 530px) {

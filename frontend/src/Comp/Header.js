@@ -9,18 +9,6 @@ const Header = () => {
                 Home-Cart
             </div>
             <div className='header_middle'>
-                <div className='Button'>
-                    Home
-                </div>
-                <div className='Button'>
-                    Product
-                </div>
-                <div className='Button'>
-                    Help
-                </div>
-                <div className='Button'>
-                    Contact
-                </div>
                 <div className='searchbar'>
                     <select>
                         <option>
@@ -53,12 +41,23 @@ const Header = () => {
                     </select>
                     <input />
                     <Icon icon="ant-design:search-outlined" className='searchicon' />
+                    <div className='Buttons'>
+                        <div className='Button'>
+                            Home
+                        </div>
+                        <div className='Button'>
+                            Random Product
+                        </div>
+                        <div className='Button'>
+                            Help
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div className=''>
-                <Icon icon="subway:admin" color="white" height="100%" width="40" />
-                <Icon icon="akar-icons:heart" color="white" height="100%" width="40" />
-                <Icon icon="bi:cart" color="white" height="100%" width="40" />
+            <div className='SVG'>
+                <Icon icon="subway:admin" color="white" height="100%" width="44" />
+                <Icon icon="akar-icons:heart" color="white" height="100%" width="44" />
+                <Icon icon="bi:cart" color="white" height="100%" width="44" />
             </div>
         </div>
     );
