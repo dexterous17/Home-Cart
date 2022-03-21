@@ -8,6 +8,7 @@
 
 .homecart {
     color: white;
+    padding-left: 10px;
 }
 
 .header_middle {
@@ -26,6 +27,7 @@
 .searchbar {
     display: flex;
     align-items: center;
+    width: 100%;
 }
 
 .searchbar>select {
@@ -35,13 +37,14 @@
 
 .searchbar>input {
     height: 30px;
+    width: 100%;
 }
 
 .searchbar>.searchicon {
     color: white;
     background-color: orange;
-    height: 30px;
-    width: 35px;
+    height: 28px;
+    width: 85px;
 }
 
 .searchbar> .Buttons{
@@ -51,6 +54,7 @@
 .searchbar> .Buttons > .Button{
     padding-right: 10px;
     padding-left: 10px;
+    width: max-content;
 }
 
 .searchbar> .Buttons > .Button:last-child{

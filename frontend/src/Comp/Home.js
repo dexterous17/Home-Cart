@@ -1,7 +1,7 @@
 import React from 'react';
-import './Product.css'
-import Product_button from './Product_button';
-import Product_1 from './Product_1';
+import './Home.css'
+import HomeButton from './HomeButton';
+import HomeProduct from './HomeProduct';
 const Product = () => {
     return (
         <main>
@@ -9,8 +9,8 @@ const Product = () => {
 
             </div>
             <div className='lower_main'>
-                <Product_button />
-                <Product_1 />
+                <HomeButton/>
+                <HomeProduct/>
             </div>
         </main>
     );
