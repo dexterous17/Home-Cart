@@ -1,7 +1,7 @@
 import React from 'react';
 import './Login.css'
 import { Formik, Form } from 'formik';
-import { TextField } from './TextField';
+import { TextField } from '../../Comp/TextField';
 import * as Yup from 'yup';
 
 

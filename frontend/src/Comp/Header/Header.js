@@ -1,63 +1,50 @@
 import React from 'react';
 import './Header.css'
 import { Icon } from '@iconify/react';
+import Selectbar from './Searchbar/Selectbar/Selectbar';
 
 const Header = () => {
     return (
         <div className='Header'>
             <div className='homecart'>
-                Home-Cart
+                <a href='/'>
+                    Home-Cart
+                </a>
             </div>
             <div className='header_middle'>
                 <div className='searchbar'>
-                    <select>
-                        <option>
-                            All catrgoery
-                        </option>
-                        <option>
-                            Appliances
-                        </option>
-                        <option>
-                            Baby
-                        </option>
-                        <option>
-                            Clothing
-                        </option>
-                        <option>
-                            Electronics
-                        </option>
-                        <option>
-                            Gifts & Holidays
-                        </option>
-                        <option>
-                            Health
-                        </option>
-                        <option>
-                            Home
-                        </option>
-                        <option>
-                            Pets
-                        </option>
-                    </select>
+                    <Selectbar/>
                     <input />
                     <Icon icon="ant-design:search-outlined" className='searchicon' />
                     <div className='Buttons'>
                         <div className='Button'>
-                            Home
+                            <a href='/'>
+                                Home
+                            </a>
                         </div>
                         <div className='Button'>
-                            Random Product
+                            <a href='/randomproduct'>
+                                Random Product
+                            </a>
                         </div>
                         <div className='Button'>
-                            Help
+                            <a href='/Help'>
+                                Help
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
             <div className='SVG'>
-                <Icon icon="subway:admin" color="white" height="100%" width="44" />
-                <Icon icon="akar-icons:heart" color="white" height="100%" width="44" />
-                <Icon icon="bi:cart" color="white" height="100%" width="44" />
+                <a href='/login'>
+                    <Icon icon="subway:admin" color="white" height="100%" width="44" />
+                </a>
+                <a href='/wishlist'>
+                    <Icon icon="akar-icons:heart" color="white" height="100%" width="44" />
+                </a>
+                <a href='/cart'>
+                    <Icon icon="bi:cart" color="white" height="100%" width="44" href='/cart' />
+                </a>
             </div>
         </div>
     );
