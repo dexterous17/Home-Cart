@@ -2,16 +2,13 @@ import React from 'react';
 import './Home.css'
 import HomeButton from './HomeButton';
 import HomeProduct from './HomeProduct';
+import CarouselMain from './MainProduct/Carousel/Carousel';
 const Product = () => {
     return (
         <main>
-            <div className='Carsole'>
-
-            </div>
-            <div className='lower_main'>
-                <HomeButton/>
-                <HomeProduct/>
-            </div>
+            <CarouselMain />
+            <HomeButton />
+            <HomeProduct />
         </main>
     );
 };

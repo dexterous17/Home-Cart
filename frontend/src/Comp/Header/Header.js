@@ -1,7 +1,8 @@
 import React from 'react';
 import './Header.css'
 import { Icon } from '@iconify/react';
-import Selectbar from './Searchbar/Selectbar/Selectbar';
+import Mainbar from './Searchbar/MainBar/Mainbar';
+
 
 const Header = () => {
     return (
@@ -12,28 +13,7 @@ const Header = () => {
                 </a>
             </div>
             <div className='header_middle'>
-                <div className='searchbar'>
-                    <Selectbar/>
-                    <input />
-                    <Icon icon="ant-design:search-outlined" className='searchicon' />
-                    <div className='Buttons'>
-                        <div className='Button'>
-                            <a href='/'>
-                                Home
-                            </a>
-                        </div>
-                        <div className='Button'>
-                            <a href='/randomproduct'>
-                                Random Product
-                            </a>
-                        </div>
-                        <div className='Button'>
-                            <a href='/Help'>
-                                Help
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                <Mainbar/>
             </div>
             <div className='SVG'>
                 <a href='/login'>
