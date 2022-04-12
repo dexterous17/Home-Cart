@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "buttons_on_main_pages",
+  "info": {
+    "singularName": "buttons-on-main-page",
+    "pluralName": "buttons-on-main-pages",
+    "displayName": "Buttons_on_main_page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ButtonName": {
+      "type": "string"
+    }
+  }
+}

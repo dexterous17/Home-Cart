@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "product_2s",
+  "info": {
+    "singularName": "product-2",
+    "pluralName": "product-2s",
+    "displayName": "Product_2"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Product_2": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

@@ -1,35 +1,18 @@
 import React from 'react';
 
 const Selectbar = () => {
+
+    const options = ['All catrgoery','Appliances','Baby','Clothing','Electronics','Gifts & Holidays','Health','Home','Pets']
+
     return (
         <select>
-            <option>
-                All catrgoery
-            </option>
-            <option>
-                Appliances
-            </option>
-            <option>
-                Baby
-            </option>
-            <option>
-                Clothing
-            </option>
-            <option>
-                Electronics
-            </option>
-            <option>
-                Gifts & Holidays
-            </option>
-            <option>
-                Health
-            </option>
-            <option>
-                Home
-            </option>
-            <option>
-                Pets
-            </option>
+           {
+               options.map(option=>(
+                   <option key={option}>
+                       {option}
+                   </option>
+               ))
+           }
         </select>
     );
 };

@@ -1,0 +1,26 @@
+.SingleProduct {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Upper {
+    display: flex;
+    flex-direction: row;
+}
+
+.side-1 {
+    width: 40%;
+    height: 100%;
+}
+
+.side-2 {
+    border: solid 1px red;
+   
+}
+
+.Lower {
+    border: solid 1px green;
+    height: 100%;
+    width: 100%;
+}
