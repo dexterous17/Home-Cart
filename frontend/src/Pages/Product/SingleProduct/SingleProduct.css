@@ -10,17 +10,41 @@
 }
 
 .side-1 {
-    width: 40%;
+    width: 50%;
     height: 100%;
 }
 
 .side-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: solid 1px red;
-   
+    width: 100%;
+    height: 100%;
+}
+
+.side-2>div {
+    background-color: rgb(216, 155, 63);
+    width: 90%;
+    height: 90%;
+    margin: 10px;
+    border-radius: 10%;
 }
 
 .Lower {
     border: solid 1px green;
     height: 100%;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Lower>div {
+    background-color: bisque;
+    margin: 10px;
+    border: solid 1px red;
+    height: 80%;
+    width: 80%;
+    border-radius: 10%;
 }

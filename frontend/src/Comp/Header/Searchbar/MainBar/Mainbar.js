@@ -7,7 +7,7 @@ const Mainbar = () => {
 
     const Button = [
         { 'link': '/', 'text': 'Home' },
-        { 'link': '/randomproduct', 'text': 'Random Product' },
+        { 'link': '/Products/Random', 'text': 'Random Product' },
         { 'link': '/help', 'text': 'Help' }
     ]
 

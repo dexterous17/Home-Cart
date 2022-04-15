@@ -25,7 +25,9 @@ const CarouselMain = () => {
 
     return (
         <div className='home_carousel'>
-            <ImageGallery items={url} showFullscreenButton={false} showThumbnails={false} showPlayButton={false}/>
+            <div>
+                <ImageGallery items={url} showFullscreenButton={false} showThumbnails={false} showPlayButton={false} />
+            </div>
         </div>
     );
 };

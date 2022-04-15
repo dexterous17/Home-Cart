@@ -1,0 +1,10 @@
+.Help_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+.Help_box{
+    width: 50%;
+}

@@ -7,6 +7,7 @@ import Login from './Pages/Login/Login';
 import SingleOrder from './Pages/Order/Single Order/SingleOrder';
 import SingleProduct from './Pages/Product/SingleProduct/SingleProduct';
 import Signup from './Pages/Signup/Signup';
+import Help from './Pages/Single pages/Help';
 
 function App() {
 
@@ -17,8 +18,9 @@ function App() {
         <Route exact path='/' element={<Home />} />
         <Route path='/login' element={<Login />} />
         <Route path='/signup' element={<Signup />} />
-        <Route path='/randomproduct' element={<SingleProduct/>} />
+        <Route path='/Products/:id' element={<SingleProduct/>} />
         <Route path='/singleorder' element={<SingleOrder />}/>
+        <Route path='/Help' element={<Help/>}/>
       </Routes>
       <Footer />
     </Router>

@@ -1,13 +1,24 @@
-main{
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
     height: 100%;
 }
+
 .home_carousel {
-    height: inherit;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
 }
-.home_carousel > {
-    height: 100px;
-    
+
+.home_carousel > div{
+    height: 100%;
+    width: 40%;
 }
+
+
 .lower_main {
     display: flex;
     flex-direction: column;

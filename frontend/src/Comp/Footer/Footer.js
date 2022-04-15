@@ -2,7 +2,7 @@ import React from 'react';
 import './Footer.css'
 
 const Footer = () => {
-    const footer_text = [{ text: "Condition of use" }, { text: "Privacy Notice" }, { text: "Intreset-Based Ads" }, { text: "© 1996-2022, Home-cart.com, Inc. or its affiliates" }]
+    const footer_text = [{ text: "Condition of use" }, { text: "Privacy Notice" }, { text: "Interest-Based Ads" }, { text: "© 1996-2022, Home-cart.com, Inc. or its affiliates" }]
 
     return (
         <div className='Footer'>
